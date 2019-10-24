@@ -34,7 +34,7 @@ export default class Todolist extends Component {
             todo: [...this.state.todo,data]
             
         },()=>{
-            localStorage.setItem('',JSON.stringify(this.state.todo))
+            localStorage.setItem('todo',JSON.stringify(this.state.todo))
         })
     }
     

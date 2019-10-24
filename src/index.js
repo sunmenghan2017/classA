@@ -1,10 +1,11 @@
 import React,{Fragment,Component}from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Todolist from './Todolist/Todolist'
+// import App from './App';
 
 ReactDOM.render(
-    <App/>,
+    <Todolist/>,
     document.getElementById('root')
 )
 
