@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*红色移动背景色*/
+.active{
+  width:100%;
+  height:300px;
+  background:red;
+}
+/*作业二*/
+*{
+  padding:0;
+  margin: 0;
+}
+/* .header{
+  height: 50px;
+  background: #444;
+}
+.header header{
+  width: 1200px;
+  line-height: 50px;
+  margin:0 auto;
+}
+.header header a{
+  margin:0 20px;
+  color: #fff;
+}
+.header img{
+  width: 120px;
+} */
+.content{
+  width: 1200px;
+  margin: 30px auto 0;
+}
+.content .left{
+  float: left;
+  width: 910px;
+  padding: 0 20px;
+  background: #fff;
+}
+.content .right{
+  float: right;
+  width: 260px;
+  height:500px;
+  background: red;
+}

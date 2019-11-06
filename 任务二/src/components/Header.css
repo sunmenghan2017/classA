@@ -1,0 +1,16 @@
+.header{
+    height: 50px;
+    background: #444;
+  }
+  .header header{
+    width: 1200px;
+    line-height: 50px;
+    margin:0 auto;
+  }
+  .header header a{
+    margin:0 20px;
+    color: #fff;
+  }
+  .header img{
+    width: 120px;
+  }

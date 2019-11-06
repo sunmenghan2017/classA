@@ -1,0 +1,11 @@
+.top{
+    width: 870px;
+    height:40px;
+    line-height: 40px;
+    background: rgba(226, 225, 225, 0.945);
+}
+.top a{
+    float: left;
+    margin:0 20px;
+    color: rgba(52, 206, 22, 0.801);
+  }
